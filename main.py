@@ -1,4 +1,4 @@
-# vic viper v1.0.1
+# vic viper v1.0.2
 import time
 
 # remember: study is more efficient when there's
@@ -22,9 +22,9 @@ print("Your answer is")
 print(mandatory_task)
 
 print("")
-print("Ok, focus only that study pending, accordingly, no traps!")
+print(f"Ok, focus only on {mandatory_task}, accordingly, no traps!")
 
 while 1:
     time.sleep(1)
-    print("Ok, focus only that study pending, accordingly, no traps!")
+    print(f"Ok, focus only on {mandatory_task}, accordingly, no traps!")
 
